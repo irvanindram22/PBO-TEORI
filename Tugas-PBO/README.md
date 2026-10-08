@@ -15,9 +15,7 @@ dipisahkan ke berkas `.php` masing-masing.
    php --version
    ```
 
-2. Buka terminal di folder proyek `Tugas1-PBO-A` (misalnya melalui **Terminal >
-   New Terminal** di VS Code), lalu jalankan salah satu perintah berikut.
-   Tanda kutip diperlukan karena beberapa nama folder mengandung spasi:
+2. Buka terminal pada folder proyek Tugas1-PBO-A (misalnya lewat menu Terminal > New Terminal di VS Code), kemudian jalankan salah satu perintah di bawah ini. Tanda kutip wajib dipakai karena sebagian nama folder mengandung spasi:
 
 ```sh
 php "versiPHP/01 Class/Main.php"
@@ -29,19 +27,14 @@ php "versiPHP/05 asosiasikomposisi/Main.php"
 php "versiPHP/06 abstractinterface/Main.php"
 ```
 
-Jalankan satu perintah setiap kali untuk melihat output contoh tersebut.
-Perintah-perintah ini juga dapat dijalankan dari folder `versiPHP` dengan
-menghapus awalan `versiPHP/` dari path berkas.
-
-`App.php` dan `Main.php` di folder `03 inheritance` adalah dua contoh terpisah:
-`App.php` menjalankan contoh pewarisan bangun datar, sedangkan `Main.php`
-menjalankan contoh pewarisan kelas mahasiswa.
+Eksekusi perintah satu per satu untuk melihat hasil tiap contoh. 
+Jika terminal dibuka dari dalam folder versiPHP, 
+hilangkan awalan versiPHP/ pada path berkas.
 
 ## Gambar hasil setiap run
 
 Gambar berikut menampilkan perintah terminal dan output dari masing-masing
-contoh. Folder `03 inheritance` memiliki dua program utama, jadi keduanya
-ditampilkan terpisah.
+contoh.
 
 ### 01 Class
 
@@ -84,12 +77,6 @@ ditampilkan terpisah.
 
 ## Padanan konsep Java di PHP
 
-- PHP hanya memiliki satu constructor per kelas. Parameter opsional dipakai
-  untuk meniru beberapa variasi constructor Java, seperti pada `Mahasiswa`.
-- Interface PHP mendefinisikan kontrak method, tetapi tidak menyediakan
-  default method seperti Java. Trait `FuelableDefault` digunakan pada contoh
-  `Motor` untuk menyediakan implementasi `refuel()` yang dapat dipakai ulang.
-- PHP menggunakan `extends` untuk pewarisan kelas, `implements` untuk
-  implementasi interface, dan `instanceof` untuk memeriksa tipe objek.
-- `require_once` memuat definisi kelas satu kali. `__DIR__` membuat jalur
-  pemuatan berkas tetap mengacu pada lokasi berkas saat ini.
+-Setiap kelas di PHP hanya boleh punya satu constructor. Untuk menggantikan constructor berganda ala Java, digunakan parameter opsional, seperti pada kelas Mahasiswa.
+-Interface di PHP hanya menetapkan kontrak method dan tidak mendukung default method seperti di Java. Sebagai gantinya, trait FuelableDefault dipakai pada contoh Motor untuk menyediakan implementasi refuel() yang bisa digunakan kembali.
+-Pewarisan kelas memakai extends, implementasi interface memakai implements, dan pengecekan tipe objek memakai instanceof.
