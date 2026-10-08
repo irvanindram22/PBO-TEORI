@@ -1,7 +1,7 @@
 # Versi PHP
 
-**Nama:** Muhamad Rasha Zein  
-**NPM:** 4525210042
+**Nama:** Irvan Indra Mustofa 
+**NPM:** 4525210107
 
 Folder ini berisi implementasi PHP dari contoh pemrograman berorientasi objek
 di folder `versiJava`. Setiap folder membahas konsep yang sama, dengan kelas
@@ -45,31 +45,31 @@ ditampilkan terpisah.
 
 ### 01 Class
 
-![Hasil run 01 Class](./screenshots/01-class.svg)
+![Hasil run 01 Class](./Pertemuan1/Output1.png)
 
 ### 02 Constructor
 
-![Hasil run 02 Constructor](./screenshots/02-constructor.svg)
+![Hasil run 02 Constructor](./Pertemuan2/Output2.png)
 
 ### 03 Inheritance — Bangun Datar
 
-![Hasil run inheritance bangun datar](./screenshots/03-inheritance-bangun-datar.svg)
+![Hasil run inheritance bangun datar](./Pertemuan3/Output3.png)
 
 ### 03 Inheritance — Mahasiswa
 
-![Hasil run inheritance mahasiswa](./screenshots/03-inheritance-mahasiswa.svg)
+![Hasil run inheritance mahasiswa](./Pertemuan3/Output3.png)
 
 ### 04 Polymorphism
 
-![Hasil run 04 Polymorphism](./screenshots/04-polymorphism.svg)
+![Hasil run 04 Polymorphism](./Pertemuan4/Output4.png)
 
 ### 05 Asosiasi, Agregasi, dan Komposisi
 
-![Hasil run 05 Asosiasi, Agregasi, dan Komposisi](./screenshots/05-asosiasi-komposisi.svg)
+![Hasil run 05 Asosiasi, Agregasi, dan Komposisi](./Pertemuan5/Output5.png)
 
 ### 06 Abstract Class dan Interface
 
-![Hasil run 06 Abstract Class dan Interface](./screenshots/06-abstract-interface.svg)
+![Hasil run 06 Abstract Class dan Interface](./Pertemuan6/Output6.png)
 
 ## Materi di setiap folder
 
